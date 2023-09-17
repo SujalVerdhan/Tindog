@@ -1,0 +1,211 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: montserrat;
+    font-weight: bold;
+}
+h1{
+
+   
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+    
+}
+/* h3{
+    
+    font-size: 1.5rem;
+    
+} */
+p{
+    font-family: montserrat;
+    color:#8f8f8f;
+     font-size:1.1rem;
+    
+}
+                            /* Title */
+
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.title-image{
+    width: 60%;
+    transform:rotate(25deg);
+    position: absolute;
+    z-index: 2;
+    right:30%;
+
+}
+
+                              /* navbar */
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left:0;
+}
+.navbar{
+    padding-bottom:4.5rem;
+    padding-left: 0;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:Montserrat;
+    font-weight: light;
+    font-size: 1.3rem;
+}
+.download-button{
+    margin:5% 3% 5% 0
+}
+
+
+
+                         /* Features Section */
+.fa-circle-check{
+    color:#ef8172
+    
+}
+.features-icon {
+    color:#ef8172;
+    font-size:3.5rem;
+    /* text-align:center; */
+    margin-bottom: 20px;;
+    }
+    .fa-solid:hover{
+        color:#ff4c68
+    }
+    #features{
+        position: relative;
+        padding:7% 15%;
+        background-color: white;
+        z-index:3;
+}
+
+.feature-box{
+    /* text-align: center; */
+    padding:5%;
+}
+
+
+                                          /* Testimonial Section */
+
+                             
+.item-h2{
+    color:white;
+    /* font-family: Montserrat;
+    font-weight: bold; */
+    font-size: 2.7rem;
+    line-height: 1.5;
+
+}   
+.testimonial-image{
+border-radius: 100%;
+width:15%;
+padding:20px;
+}
+           /* press section */
+.press-img{
+    width:15%;
+    margin:20px;
+   
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+         /* pricing section */
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+/*  responsive      for mobiles */
+@media (max-width:991px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/*    cta section */
+.cta-h3{
+    color:white;
+    
+    padding-bottom: 5%;
+    font-size: 3rem;
+}
+.cta-btn{
+    padding-left: 10px;
+    margin-left: 20px;
+}
+                         /* footer */
+.footer-icon{
+    margin:5px 10px;
+}
+.footer-para{
+    padding-top:5%;
+    margin:0;
+}
+.footer-icon:hover{
+    color:#ef8172;
+}
+                                /* containers */
+
+
+
+
+
+
+   #title{
+    /* background-color: #ff4c68; */
+    /* color: #fff; */
+    text-align: left;
+
+}
+ #testimonials.coloured-section{   /*combined selectors it means its been applied on element which has id testimonoals and class coloured-section*/
+     
+    /* text-align:center; */
+    background-color:#ef8172;
+    /* color:#fff; */
+}          
+#press.coloured-section{
+    background-color:#ef8172;
+    /* text-align:center; */
+    padding-bottom:3%;
+
+}
+
+#pricing{
+    /* text-align: center; */
+    padding:100px;
+}
+#cta{
+    /* background-color: #ff4c68; */
+    /* text-align:center; */
+    padding:10% 15%;
+
+}
+#footer{
+    /* background-color: #fff; */
+    /* text-align: center; */
+    padding:7% 15%;
+}
+/* section colouring */
+.coloured-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color:#fff;
+    
+}
