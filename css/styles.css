@@ -33,7 +33,7 @@ p{
     padding:3% 15% 7%;
 }
 .title-image{
-    width: 60%;
+    
     transform:rotate(25deg);
     position: absolute;
     z-index: 2;
